@@ -19,14 +19,10 @@ public class MainActivity extends AppCompatActivity {
         Button button3=(Button) findViewById(R.id.homework_btn3);
         Button button4=(Button) findViewById(R.id.homework_btn4);
         Button button5=(Button) findViewById(R.id.homework_btn5);
-
-
     }
-
-
     //作业一跳转
     public void startmain(View view){
-        //界面跳转
+         //界面跳转
         Intent intent=new Intent(this,homeworkActivity1.class);
         startActivity(intent);
     }

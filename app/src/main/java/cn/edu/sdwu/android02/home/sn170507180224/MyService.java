@@ -9,6 +9,7 @@ import android.util.Log;
 public class MyService extends Service {
     private MediaPlayer mediaPlayer;
     public MyService() {
+
     }
     @Override
     public void onCreate(){

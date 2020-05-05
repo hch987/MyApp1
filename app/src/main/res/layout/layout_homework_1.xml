@@ -38,7 +38,6 @@
         android:onClick="ch12_2_stop"
 
         android:layout_height="wrap_content" />
-
     <Button
 
         android:layout_width="wrap_content"
