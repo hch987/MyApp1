@@ -12,14 +12,12 @@
     <Button
         android:layout_width="wrap_content"
         android:text="作业二"
-        android:id="@+id/homework_btn2"
-        android:onClick="startmain2"
+        android:onClick="homework2"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="wrap_content"
         android:text="作业三"
-        android:id="@+id/homework_btn3"
-        android:onClick="startmain3"
+        android:onClick="homework3"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="wrap_content"

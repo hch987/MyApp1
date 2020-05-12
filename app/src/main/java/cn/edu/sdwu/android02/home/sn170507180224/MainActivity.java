@@ -15,15 +15,24 @@ public class MainActivity extends AppCompatActivity {
 
         //获取按钮
         Button button=(Button) findViewById(R.id.homework_btn1);
-        Button button2=(Button) findViewById(R.id.homework_btn2);
-        Button button3=(Button) findViewById(R.id.homework_btn3);
-        Button button4=(Button) findViewById(R.id.homework_btn4);
-        Button button5=(Button) findViewById(R.id.homework_btn5);
+
     }
     //作业一跳转
     public void startmain(View view){
          //界面跳转
         Intent intent=new Intent(this,homeworkActivity1.class);
+        startActivity(intent);
+    }
+    //作业二跳转
+    public void homework2(View view){
+        //界面跳转
+        Intent intent=new Intent(this,homeworkActivity2.class);
+        startActivity(intent);
+    }
+    //作业三跳转
+    public void homework3(View view){
+        //界面跳转
+        Intent intent=new Intent(this,homeworkActivity3.class);
         startActivity(intent);
     }
 
